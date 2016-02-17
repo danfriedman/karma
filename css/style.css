@@ -1,0 +1,113 @@
+* {
+  font-weight: 200;
+}
+
+.clear {
+  clear: both;
+}
+
+.content-container {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Avenir', sans-serif;
+}
+
+.nav {
+  height: 60px;
+  background: white;
+}
+
+.nav-logo {
+  height: 40px;
+  line-height: 60px;
+  margin-top: 10px;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-list-item {
+  display: inline-block;
+  margin-right: 16px;
+  padding-top: 10px;
+}
+
+.nav-li-link {
+  color: #838994;
+}
+
+.nav-li-link:hover {
+  color: black;
+}
+
+.hero {
+  background-image: url("../karmabackground.jpg");
+  background-size: cover;
+  height: 500px;
+  margin-top: -30px;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+}
+
+.headline {
+  padding-top: 140px;
+  font-size: 40px;
+}
+
+.subhead {
+  font-size: 30px;
+}
+
+.hero-button {
+  display: block;
+  margin: 0px auto;
+  background: #f15a29;
+  border-radius: 4px;
+  border-style: none;
+  text-shadow: none;
+  padding: 16px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.body-content__headline {
+  font-size: 40px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.body-content__cases {
+  margin: 0 40px;
+}
+
+.body-content__value-prop {
+  width: 33%;
+  float: left;
+  list-style: none;
+  display: block;
+}
+
+.value-prop-image {
+  height: 130px;
+  margin: 0 auto;
+  display: block;
+}
+
+.value-prop-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+footer.content-container {
+  border-top: 1px solid #ccc;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 16px;
+}
